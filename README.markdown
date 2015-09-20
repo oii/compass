@@ -1,5 +1,13 @@
 # Compass Stylesheet Authoring Framework
 
+## Butchery
+
+The following commands were used to convert this repo to something that can be directly `submodule`'d into a project:
+
+    git mv core/stylesheets/compass/* .
+    git rm -rf cli compass-style.org core import-once CONTRIBUTING.md Guardfile Rakefile TODO.md test_all.sh
+    rm -rf core
+
 Build Status: [![Build Status](https://travis-ci.org/Compass/compass.png)](https://travis-ci.org/Compass/compass)
 
 Code Quality: [![Code Climate](https://codeclimate.com/github/Compass/compass.png)](https://codeclimate.com/github/Compass/compass)
